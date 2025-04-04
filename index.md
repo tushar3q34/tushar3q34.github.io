@@ -10,7 +10,7 @@ guitar and keyboard. I love listening to music while solving problems.
 I am open to any opportunity for Winter 2025 & Summer 2026. Feel free to approach me 
 through the emails given.
 
-## Techinical Interests
+## Technical Interests
 
 - **Problem Solving & Mathematics :** I love to solve all kind of mathematical problems
 especially non-routine. I have special interest in Number Theory.
