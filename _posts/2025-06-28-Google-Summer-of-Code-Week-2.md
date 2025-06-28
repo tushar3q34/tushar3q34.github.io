@@ -40,7 +40,7 @@ typedef struct var_t {
 
 Let's look at the following C++ snippet:
 
-```c
+```c++
 // Class structure
 class Mammal;
 class Dog : public Mammal;
