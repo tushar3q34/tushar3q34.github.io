@@ -2,7 +2,10 @@
 title: "Google Summer of Code 2025 Week 1"
 date: 2025-06-08
 author: "Tushar Jain"
+words_per_minute : 100
 read_time: true
+tags :
+    - GSoC
 ---
 
 This was the first week of the project. As proposed, I started with analysis of C++ and the first step was
