@@ -23,6 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Tushar Jain"
 description              : "An amazing website."
 url                      : https://tushar3q34.github.io
+favicon                  : "/assets/images/favicon.png"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : tushar3q34/tushar3q34.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
