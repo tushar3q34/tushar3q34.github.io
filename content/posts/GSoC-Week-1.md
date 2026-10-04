@@ -1,12 +1,12 @@
----
-title: "Google Summer of Code 2025 Week 1"
-date: 2025-06-08
-author: "Tushar Jain"
-words_per_minute : 100
-read_time: true
-tags :
-    - GSoC
----
++++
+title = "Google Summer of Code 2025 Week 1"
+date = 2025-06-08T10:00:00
+description = "Coming up with taint analysis"
+aliases = ["/Google-Summer-of-Code-2025-Week-1/"]
+
+[taxonomies]
+tags = ["gsoc"]
++++
 
 This was the first week of the project. As proposed, I started with analysis of C++ and the first step was
 marking object pointers which are stored in variables.

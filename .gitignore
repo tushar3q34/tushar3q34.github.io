@@ -1,2 +1,3 @@
-_site
-_.DS
+public/
+_site/
+.DS_Store

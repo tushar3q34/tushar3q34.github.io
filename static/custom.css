@@ -1,0 +1,171 @@
+/* ── Accent color ── */
+:root.dark {
+    --primary-color: #60a5fa;
+    --tag-bg: #1e3a5f;
+    --tag-color: #93c5fd;
+}
+
+/* ════════════════════════════
+   PAGE TITLES (home + all pages)
+   ════════════════════════════ */
+.home-title,
+.page-title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.3em;
+    border-left: 4px solid var(--primary-color);
+    padding-left: 0.5em;
+    margin-left: -0.6em;
+}
+
+/* ════════════════════════════
+   POST META (date + tags line)
+   ════════════════════════════ */
+.post-meta {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.post-tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--tag-color);
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.15em 0.6em;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 0.3em;
+}
+
+.post-tag:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* ════════════════════════════
+   BODY CONTENT HEADINGS
+   (inside posts / about page body)
+   ════════════════════════════ */
+.post-body h2,
+.body h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+}
+
+.post-body h3,
+.body h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.6em;
+    margin-bottom: 0.3em;
+}
+
+.post-body h4,
+.body h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.2em;
+}
+
+.post-body img {
+    display: block;
+    margin: 1.5em auto;
+    max-width: 100%;
+}
+
+/* ════════════════════════════
+   POSTS LIST
+   ════════════════════════════ */
+.post-list h1 {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    margin: 0.1em 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+}
+
+.post-list h1 a {
+    text-decoration: none;
+}
+
+.post-list h1 a:hover {
+    text-decoration: underline;
+}
+
+/* ════════════════════════════
+   TAGS LIST
+   ════════════════════════════ */
+h1:has(> a[href*="/tags/"]) {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* ════════════════════════════
+   NAV UNDERLINE ON HOVER
+   ════════════════════════════ */
+header nav a {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+header nav a:hover {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* ════════════════════════════
+   HOME INTRO TEXT
+   ════════════════════════════ */
+.home-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    max-width: 620px;
+    opacity: 0.88;
+}
+
+/* ════════════════════════════
+   NAV SPACING
+   ════════════════════════════ */
+header {
+    padding-top: 3.5rem !important;
+    padding-bottom: 2.5rem !important;
+    margin-bottom: 2rem;
+}
+
+nav .right-nav img,
+nav .right-nav svg {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+nav .right-nav {
+    gap: 1rem !important;
+    display: flex;
+    align-items: center;
+}
+
+/* ════════════════════════════
+   SOCIAL ICONS
+   ════════════════════════════ */
+nav .left-nav .social img,
+nav .left-nav .social svg {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+nav .left-nav .social {
+    gap: 1rem !important;
+    display: flex;
+    align-items: center;
+}

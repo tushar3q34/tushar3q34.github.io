@@ -1,12 +1,12 @@
----
-title: "Google Summer of Code 2025 Week 8 to 10"
-date: 2025-09-01
-author: "Tushar Jain"
-words_per_minute : 90
-read_time: true
-tags:
-    - GSoC
----
++++
+title = "Google Summer of Code 2025 Week 8-10"
+date = 2025-09-01
+description = "RTTI and VTables"
+aliases = ["/Google-Summer-of-Code-2025-Week-8-10/"]
+
+[taxonomies]
+tags = ["gsoc"]
++++
 
 Since the analysis of C++ with RTTI available was almost done, it was time to move on to analysing binaries which do not have RTTI.
 Rizin analyses the basic things of all classes, even if RTTI is absent but there were two key things that were absent :
@@ -23,7 +23,7 @@ runtime type access of object pointers.
 
 General structure of RTTI in a binary is as follows ([source](https://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/Paper/bh-dc-07-Sabanal_Yason-WP.pdf)):
 
-![RTTI in C++](/assets/images/cxx_rtti.png){: .align-center}
+![RTTI in C++](/images/cxx_rtti.png)
 
 Rizin uses RTTI information for a lot of analysis including building heirarchy and linking analysis classes with virtual tables.
 Hence without RTTI, we had virtual table information and class information but we did not know which virtual table(s) corresponded with which class.

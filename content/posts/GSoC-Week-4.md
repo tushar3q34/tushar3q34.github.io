@@ -1,12 +1,12 @@
----
-title: "Google Summer of Code 2025 Week 4"
-date: 2025-06-28
-author: "Tushar Jain"
-words_per_minute : 90
-read_time: true
-tags:
-    - GSoC
----
++++
+title = "Google Summer of Code 2025 Week 4"
+date = 2025-06-28T13:00:00
+description = "Multiple objects handling"
+aliases = ["/Google-Summer-of-Code-2025-Week-4/"]
+
+[taxonomies]
+tags = ["gsoc"]
++++
 
 On time post for this, yeahhhhh! This week was mostly around covering the leftover cases from the last week and making sure
 things work for both **x86/64** and **ARM** architecture.

@@ -1,12 +1,12 @@
----
-title: "Google Summer of Code 2025 Week 3"
-date: 2025-06-28
-author: "Tushar Jain"
-words_per_minute : 30
-read_time: true
-tags:
-    - GSoC
----
++++
+title = "Google Summer of Code 2025 Week 3"
+date = 2025-06-28T12:00:00
+description = "Simulating Objects"
+aliases = ["/Google-Summer-of-Code-2025-Week-3/"]
+
+[taxonomies]
+tags = ["gsoc"]
++++
 
 This post will cover the progress made in Week 3. This week was the start of devirtualization using
 the class marking implemented previously. The focus of this week was to handle at lest the basic cases.
@@ -16,7 +16,7 @@ This is another late post, sorry about that :D
 
 The pointer to virtual table(s) is stored at the start of an object. The following diagram :
 
-![Virtual Tables](/assets/images/vtable_real.png){: .align-center}
+![Virtual Tables](/images/vtable_real.png)
 
 The tricky part is that we do not have the physical object available in memory while emulating.
 So we need to simulate the same to have the desired address while calling the virtual function.
@@ -30,13 +30,13 @@ For the current implementation :
 Note that the memory blocks here might have different address direction sense hence the addresses at both terminals
 are given. The implementation is as follows :
 
-![Virtual Tables Implementation](/assets/images/vtable_impl.png){: .align-center}
+![Virtual Tables Implementation](/images/vtable_impl.png)
 
 ## Devirtualization
 
 Now we just run the VM for extracting the necessary register values and marking the calls accordingly.
 
-![Virtual Tables Instructions](/assets/images/vtable_insr.png){: .align-center}
+![Virtual Tables Instructions](/images/vtable_insr.png)
 
 ## Result in disassembly
 

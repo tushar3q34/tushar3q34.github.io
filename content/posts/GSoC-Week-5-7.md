@@ -1,12 +1,12 @@
----
-title: "Google Summer of Code 2025 Week 5 to 7"
-date: 2025-08-29
-author: "Tushar Jain"
-words_per_minute : 90
-read_time: true
-tags:
-    - GSoC
----
++++
+title = "Google Summer of Code 2025 Week 5-7"
+date = 2025-08-29
+description = "Virtual XREFs and updates"
+aliases = ["/Google-Summer-of-Code-2025-Week-5-7/"]
+
+[taxonomies]
+tags = ["gsoc"]
++++
 
 Continuing with GSoC, weeks 5-6 were the last two weeks before mid evaluation. I was not very active in week 7 due to internship 
 tests & interviews in my college. And I am also writing this blog late, very late infact. TL;DR I passed mid evaluation and 
@@ -20,7 +20,7 @@ most cases, I with my mentors decided to work on virtual XREFs.
 For the readers who do not know what XREFs (called as cross references) are, they are basically a reference to another point
 from the current offset.
 
-![Meaning of XREFs](/assets/images/xrefs_demo.png){: .align-center}
+![Meaning of XREFs](/images/xrefs_demo.png)
 
 The task was simple, adding XREFs for virtual calls as well so that user can know wherever the virtual function has been called
 strictly virtually. Implementation details can be saved for the interested readers, who can visit the PR and check the relevant commits.

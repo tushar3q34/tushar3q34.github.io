@@ -1,0 +1,22 @@
+base_url = "https://tushar3q34.github.io"
+title = "Tushar Jain"
+
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+build_search_index = true
+
+[extra]
+theme = "toggle"
+stylesheets = ["custom.css"]
+favicon = "/images/favicon.png?v=2"
+
+socials = [
+    { name = "github", url = "https://github.com/tushar3q34", icon = "github" },
+    { name = "linkedin", url = "https://linkedin.com/in/tushar3q34", icon = "linkedin" },
+]
+
+menu = [
+    { name = "about", url = "/about", weight = 1 },
+    { name = "posts", url = "/posts", weight = 2 },
+    { name = "tags",  url = "/tags",  weight = 3 },
+]

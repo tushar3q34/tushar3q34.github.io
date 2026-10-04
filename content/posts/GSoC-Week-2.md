@@ -1,12 +1,12 @@
----
-title: "Google Summer of Code 2025 Week 2"
-date: 2025-06-28
-author: "Tushar Jain"
-words_per_minute : 100
-read_time: true
-tags:
-    - GSoC
----
++++
+title = "Google Summer of Code 2025 Week 2"
+date = 2025-06-28T11:00:00
+description = "Argument Tracking"
+aliases = ["/Google-Summer-of-Code-2025-Week-2/"]
+
+[taxonomies]
+tags = ["gsoc"]
++++
 
 Altough this is a late post, it will cover the changes and updates done in the second week. This week
 focused on argument tracking as suggested by mentors and marking objects which can have multiple objects
